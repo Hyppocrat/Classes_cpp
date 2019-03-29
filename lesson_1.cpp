@@ -19,8 +19,5 @@ int find_min_value(int *arr_begin, int *arr_end){
 
 int main() {
     int a[10] = {3,5,2,1,5,0,2,8,4,1};
-    int *mn = find_min(a+1, a+5);
-    cout << *mn << endl;
-    cout << mn - a<<endl;
     return 0;
 }
